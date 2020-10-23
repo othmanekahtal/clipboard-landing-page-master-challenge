@@ -1,7 +1,14 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
+%reset-all {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+* {
+  @extend %reset-all;
+  &::after {
+    @extend %reset-all;
+  }
+  &::before {
+    @extend %reset-all;
+  }
 }
