@@ -1,14 +1,13 @@
-%reset-all {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-* {
-  @extend %reset-all;
-  &::after {
-    @extend %reset-all;
-  }
-  &::before {
-    @extend %reset-all;
-  }
-}
+@import "Abstracts/vars";
+@import "Abstracts/extends";
+@import "base/Utilities";
+@import "base/Animations";
+@import "base/base";
+@import "base/typography";
+@import "components/buttons";
+@import "components/icons";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/Responsive";
+@import "layout/flexbox";
+@import "layout/gridSystem";
