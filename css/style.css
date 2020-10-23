@@ -1,4 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 *, *::after, *::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box; }
+
+html {
+  font-size: 112.5%; }
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400; }
+
+.header {
+  position: relative;
+  background: linear-gradient(to top, white, rgba(255, 255, 255, 0.1)), url("../images/bg-header-desktop.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 310px; }
+  .header__logo {
+    text-align: center;
+    padding: 75px 0 45px; }
+    .header__logo img {
+      height: 100px; }

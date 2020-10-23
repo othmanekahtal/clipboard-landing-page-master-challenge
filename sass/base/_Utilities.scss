@@ -1,9 +1,0 @@
-* {
-  @extend %reset-all;
-  &::after {
-    @extend %reset-all;
-  }
-  &::before {
-    @extend %reset-all;
-  }
-}
