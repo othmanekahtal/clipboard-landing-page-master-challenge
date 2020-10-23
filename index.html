@@ -5,14 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
   
   <title>Frontend Mentor | Clipboard landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <header class="header">
@@ -20,7 +18,7 @@
       <img src="images/logo.svg" alt="logo">
     </div>
     <div class="header__title">
-      <h1 class="header__title--main">A history of everything you copy</h1>
+      <span class="header__title--main">A history of everything you copy</span>
       <span class="header__title--sub">
         Clipboard allows you to track and organize everything you 
         copy. Instantly access your clipboard on all your devices.
@@ -47,11 +45,8 @@
           <p class="item__paragraph">Easily search your snippets by content, category, web address, application, and more.</p>
         </div>
         <div class="item item__cloud">
-
-  <h3 class="item__heading">iCloud Sync</h3>
-
-  <p class="item__paragraph">Instantly saves and syncs snippets across all your devices.</p>
-
+          <h3 class="item__heading">iCloud Sync</h3>
+          <p class="item__paragraph">Instantly saves and syncs snippets across all your devices.</p>
         </div>
         <div class="item item__history">
           <h3 class="item__heading">Complete History</h3>
@@ -104,14 +99,24 @@
   </main>
   <footer class="footer">
     <div class="footer__logo">
-      <img src="images/logo.png" alt="logo">
+      <img src="images/logo.svg" alt="logo">
     </div>
-
-    <a href='#'>FAQs</a>
-    <a href='#'>Contact Us</a>
-    <a href='#'>Privacy Policy</a>
-    <a href='#'>Press Kit</a>
-    <a href='#'>Install Guide</a>
+    <div class="footer__p footer__p--one">
+      <a href='#'>FAQs</a>
+      <a href='#'>Contact Us</a>
+    </div>
+    <div class="footer__p footer__p--two">
+      <a href='#'>Privacy Policy</a>
+      <a href='#'>Press Kit</a>
+    </div>
+    <div class="footer__p footer__p--three">
+      <a href='#'>Install Guide</a>
+    </div>
+    <div class="footer__social-icons">
+      <a href="#"><i class="fa fa-fw fa-facebook-square"></i></a>
+      <a href="#"><i class="fa fa-fw fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-fw fa-instagram"></i></a>
+    </div>
   </footer>
   <p class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

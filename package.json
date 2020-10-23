@@ -4,11 +4,14 @@
   "description": "![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "sassing":"node-sass sass/main.scss css/style.css -w"
+    "sassing": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "othmane kahtal",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
   }
 }
